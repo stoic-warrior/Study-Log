@@ -14,3 +14,10 @@ https://43434.tistory.com/117
 240824
 스프링 부트는 톰캣서버가 내장되어있음
 외부 서버에 배포하는 대신 로컬 환경에서 개발하고 테스트 할 수 있다
+
+240825
+hello.hellospring 패키지에서 시작해서 (@SpringBootApplication이 선언된 패키지)
+이 패키지와 하위들을 스프링이 다 뒤져서 스프링 빈으로 등록한다
+나머지는 기본적으로 스캔 안한다
+사실 @SpringBootApplication안에 들어가보면
+@ComponentScan이라는게 있다.
