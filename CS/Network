@@ -83,11 +83,31 @@ UDP
 ㅡ> 패킷 검사해서 목적지 확인
 2. queueing delay
 ㅡ> 라우터 out속도 보다 in속도가 빨라서 패킷 대기열(queue) 발생
+ㅡ> 큐가 넘치면 data loss (패킷 loss는 대부분 여기서 발생)
 3. trasmission delay
 ㅡ> 패킷 크기에 비해 전송속도가 느려서 발생 (파이프가 좁은걸 상상)
 4. Propagation delay
 ㅡ> 링크의 물리적 거리를 빛의 속도로 가느라 발생 
 ㅡ> 이건 어쩔 수 없다.
+
+240903
+패킷 스위칭 딜레이 줄이는법
+1. nodal processing delay
+ㅡ> 라우터 성능 개선
+2. queueing delay
+ㅡ> 사용자가 몰리는걸 통제할 순 없어서 개선x
+3. transmission delay
+ㅡ> 케이블 공사해서 bandwith 넓힘
+4. propagation delay
+ㅡ> 빛의속도를 바꿀 수 없어서 개선x
+
+(Q) 패킷 loss가 발생하는데, TCP는 어떻게 신뢰성을 유지하는가?
+(A) 패킷 재전송
+
+패킷 재전송
+ㅡ> 네트워크 엣지(서버, 클라이언트)에서 관리한다
+ㅡ> 네트워크 코어는 전송속도를 위해, 뇌빼고 단순작업만 한다
+ㅡ> 복잡한 로직은 네트워크 엣지에서 관리...
 
 
 
