@@ -133,3 +133,9 @@ UDP
 ㅡ> 패킷은 한 묶음으로 봐야 함
 
 
+네트워크 계층 구조
+app ㅡ> HTTP
+transport ㅡ> TCP, UDP
+network ㅡ> IP
+link ㅡ> WIFI, LTE, 이더넷
+physicla layer
