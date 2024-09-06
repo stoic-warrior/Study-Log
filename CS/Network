@@ -139,3 +139,14 @@ transport ㅡ> TCP, UDP
 network ㅡ> IP
 link ㅡ> WIFI, LTE, 이더넷
 physicla layer
+
+
+240906
+HTTP
+ㅡ> HyperText Transfer Protocol
+
+명령어 2가지
+ㅡ> 1. HTTP request : 서버에 HyperText 요청
+ㅡ> 2. HTTP response : 서버에서 HtperText 보내줌
+
+
