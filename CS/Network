@@ -156,3 +156,11 @@ HTTP는 TCP를 사용한다.
 ㅡ> non-persistent HTTP : TCP연결로 객체를 전송한 뒤에 TCP연결을 끊음
 
 
+non-persistent HTTP
+ㅡ> 1. HTTP 클라이언트가 TCP 연결 시작, 서버가 수락
+ㅡ> 2. HTTP 클라이언트가 HTTP request 
+ㅡ> 3. HTTP 서버가 HTTP response
+ㅡ> 4. HTTP 서버와 클라이언트가 TCP 연결을 종료
+ㅡ> 5. HTTP 클라이언트가 reponse로 받은 HTML 을 표시
+ㅡ> 브라우저가 HTML을 파싱하면서 JPEG 객체 레퍼런스를 발견
+ㅡ> 6. 각 JPEG 객체에 대해 1~5단계를 반복
