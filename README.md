@@ -1,3 +1,43 @@
+# 백엔드 개발자가 공부해야할 CS 지식
+## 운영체제
+- 프로세스
+- 스레드
+- cpu
+- 메모리
+
+## 자료구조
+- 시간복잡도
+- 연결리스트,배열,스택,큐 등등의 자료구조
+- 기본정렬알고리즘(퀵,머지,힙,버블)
+
+## db
+- 엔티티, 릴레이션 등등 기본개념
+- erd
+- 정규화
+- 인덱스
+- 트랜잭션
+- 락
+- 조인
+- SQL
+
+## 네트워크
+- OSI 7레이어 개념
+- udp 개념
+- tcp/ip 심화
+- http 심화
+
+## 기타
+- OOP / 디자인 패턴
+- UML - Activity, State Machine, Sequence
+- ERD
+- CI/CD
+- 고가용성(HA, High Availability)
+- 확장성(Scalability)
+- Web Server, Web Application Server, Servlet Container
+- Docker / Kubernetes
+
+---
+
 # 20자 요약
 
 ### 📂 자료구조
