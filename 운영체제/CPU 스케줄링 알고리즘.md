@@ -1,0 +1,18 @@
+# CPU 스케줄링 알고리즘
+> ready queue에 있는 스레드 중 어떤 것을 CPU에 올릴지 결정하는 정책
+<img width="643" height="312" alt="image" src="https://github.com/user-attachments/assets/f2a42b02-e8af-46a6-b1b0-b8ad5ed807d9" />
+
+- **CPU 스케줄링의 목표**
+  - **CPU 이용률(Utilization) 극대화**: CPU가 놀지 않게 한다
+  - **처리량(Throughput) 증가**: 단위 시간당 처리되는 작업 수↑, 많은 프로세스 처리 
+  - **대기 시간(Waiting Time) 최소화**: ready queue에서 기다리는 시간↓
+  - **응답 시간(Response Time) 단축**: 사용자 요청에 대해 빠르게 반응해야 한다
+# 비선점형 방식
+> CPU를 한번 받으면 끝날 때까지 뺏기지 않는다
+## FCFS
+## SJF
+## 우선순위
+# 선점형 방식
+## 라운드 로빈
+## SRF
+## 다단계 큐
